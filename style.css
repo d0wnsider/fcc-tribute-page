@@ -1,0 +1,190 @@
+:root {
+	--fontColor1: rgba(0, 0, 0, .7);
+	--fontColor2: rgba(255, 255, 255, .9);
+	--fontColor3: rgba(66, 32, 6, .8);
+	--fontColor4: rgba(133, 77, 14, .8);
+	--fontColor5: rgba(255, 255, 255, .4);
+	--bgColor1: rgba(38, 38, 38, .3);
+	--bgColor2: rgba(38, 38, 38, .8);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	padding: 5px;
+	color: var(--fontColor2);
+}
+
+a:visited {
+	color: var(--fontColor1);
+}
+
+span:hover {
+	color: white;
+}
+
+#container-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#container {
+	overflow: hidden;
+	border-radius: 10%;
+	border: 10px solid var(--bgColor2);
+	color: var(--fontColor1);
+	background-color: var(--bgColor1);
+	width: 60vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#header-p2 {
+	text-align: center;
+}
+
+header img {
+	min-width: 400px;
+	max-width: 100%;
+	box-shadow: 7px 7px 10px 5px var(--fontColor4);
+}
+
+main {
+	background-color: var(--fontColor5);
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+main h2 {
+	text-shadow: var(--bgColor2) 1px 0 5px;
+	color: var(--fontColor3);
+	text-decoration: underline;
+	flex: 1;
+}
+
+ul {
+	flex: 4;
+}
+
+#meditations {
+	border-top: 10px solid var(--bgColor2);
+	color: var(--fontColor1);
+	background-color: var(--bgColor1);
+	padding: 50px 200px 50px 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+.meditations-details {
+	padding: 10px;
+	border: 10px solid var(--fontColor2);
+	border-radius: 10px;
+	width: 85%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.meditations-details h2 {
+	text-shadow: white 3px 3px 3px;
+}
+
+.meditation-details-span {
+	background-color: var(--fontColor2);
+}
+
+.meditation-details-span:hover {
+	background-color: var(--fontColor2);
+	color: var(--fontColor4);
+}
+
+#meditations img {
+	min-width: 200px;
+	max-width: 40%;
+	box-shadow: 5px 5px 20px 10px var(--fontColor3);
+}
+
+#meditations a:hover {
+	color: white;
+}
+
+.meditations-colors {
+	font-size: 1.5rem;
+	text-decoration: underline;
+	background-color: #CA4246;
+	background-image: linear-gradient(45deg,
+			#CA4246 16.666%,
+			#E16541 16.666%,
+			#E16541 33.333%,
+			#F18F43 33.333%,
+			#F18F43 50%,
+			#8B9862 50%,
+			#8B9862 66.666%,
+			#476098 66.666%,
+			#476098 83.333%,
+			#A7489B 83.333%);
+
+	background-size: 100%;
+	background-repeat: repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+footer {
+	color: var(--fontColor2);
+	background-color: var(--bgColor2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+footer a {
+	color: var(--fontColor2);
+}
+
+footer a:visited {
+	color: var(--fontColor2);
+}
+
+footer a:hover {
+	color: white;
+	background-color: #CA4246;
+	background-image: linear-gradient(45deg,
+			#CA4246 16.666%,
+			#E16541 16.666%,
+			#E16541 33.333%,
+			#F18F43 33.333%,
+			#F18F43 50%,
+			#8B9862 50%,
+			#8B9862 66.666%,
+			#476098 66.666%,
+			#476098 83.333%,
+			#A7489B 83.333%);
+
+	background-size: 100%;
+	background-repeat: repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
